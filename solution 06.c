@@ -5,17 +5,15 @@ date:27/12/2021*/
 #include<conio.h>
 void main()
 {
-int a,b,row;
+int a,b;
 clrscr();
-printf("Enter the number of rows : ");
-scanf("%d",&row);
-	for(a=1;a<=row;++a)
-	{
-		for(b=1;b<=a;++b)
-		{
-			printf("* ");
-		}
-		printf("\n");
-	}
+For(i=1;i<=5;i++)
+{
+        for(j=1;j<=5;j++)
+         {
+	    printf("* ");
+         } 
+         printf("\n");
+}
 	getch();
 }
